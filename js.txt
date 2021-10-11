@@ -1,0 +1,15 @@
+I. Tạo ra constructor function để khởi tạo Student gồm các field, id (mã - number), name (tên - string), yearOfBirth (năm sinh - number), điểm (mark - number), nợ học phí (hasDebt - boolean). 
+Tạo ra 10 instance của Student. bằng cách gọi constructor function cùng từ khóa new
+Lưu hết vào 1 Array.
+1. Viết function (có return 1 array) sắp xếp các student theo năm sinh (tăng dần, giảm dần)
+2. Viết function (có return 1 array) lọc ra các student qua môn (5 điểm trở lên), lớn hơn 22 tuổi, không nợ học phí.
+3. Viết function (có return 1 object là student) để tìm kiếm theo id (khớp số 100%)
+4. Viết function (có return 1 array) tìm kiếm theo tên dựa trên từ khóa (không cần khớp 100%) (sử dụng regex)
+5. Viết function (có return 1 array) trả về danh sách student có điểm = 1 điểm cụ thể cho trước.
+6. Viết function (có return 1 array) trả về danh sách student có năm sinh cho trước.
+7. Viết function (có return 1 object là student) dùng để update 1 student có id cho trước. (không được update id)
+8. Viết function (có return 1 array) xóa 1 student ra khỏi array dựa trên id, rồi trả về 1 array mới sau khi đã xóa.
+==> Viết 1 higher order function để thực hiện chức năng (các function ở trên) và hiển thị kết quả. 
+Gợi ý: Sử dụng console.table() nhìn cho đẹp =))
+
+II. Vẫn như bài 1 nhưng mà thay vì sử dụng constructor function thì dùng class của ES6. Phải sử dụng private field và dùng getter/setter cho field.
